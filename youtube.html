@@ -43,6 +43,16 @@
             .thumbnails-row{
                 margin-bottom: 12px;
             }
+            .video-grid{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                column-gap: 16px;
+                row-gap: 40px;
+            }
+            .video-info-grid{
+                display: grid;
+                grid-template-columns: 50px 1fr;
+            }
             .video-info{
                 display: inline-block;
                 width: 200px;
@@ -59,22 +69,82 @@
     </head>
     <body>
         <input class="search-bar" type="text" placeholder="Search">
-        <div class="video-prev">
-            <div class="thumbnails-row"><img class='thumbnails' src="images/thumbnails/t.jpg"></div>
-            <div class="channel-picture"><img class="profile-picture" src="images/tg1.jpg"></div>
-            <div class="video-info">   
-                <p class="video-title">Podcast with Cris Jerico</p>
-                <p class="video-author">True Geordie</p>
-                <p class="video-views">5m views</p>
+        <div class = "video-grid">
+            <div class="video-prev">
+                <div class="thumbnails-row"><img class='thumbnails' src="images/thumbnails/t.jpg"></div>
+                <div class="video-info-grid">
+                <div class="channel-picture"><img class="profile-picture" src="images/tg1.jpg"></div>
+                    <div class="video-info">   
+                        <p class="video-title">Podcast with Cris Jerico</p>
+                        <p class="video-author">True Geordie</p>
+                        <p class="video-views">5m views</p>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="video-prev">
-            <div class="thumbnails-row"><img class='thumbnails' src="images/thumbnails/t1.jpg"></div>
-            <div class="channel-picture"><img class="profile-picture" src="images/tg1.jpg"></div>
-            <div class="video-info">   
-                <p class="video-title">Podcast with Tyson Fury</p>
-                <p class="video-author">True Geordie</p>
-                <p class="video-views">4m views</p>
+            <div class="video-grid">
+                <div class="video-prev">
+                    <div class="thumbnails-row"><img class='thumbnails' src="images/thumbnails/t1.jpg"></div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture"><img class="profile-picture" src="images/tg1.jpg"></div>
+                        <div class="video-info">   
+                            <p class="video-title">Podcast with Tyson Fury</p>
+                            <p class="video-author">True Geordie</p>
+                            <p class="video-views">4m views</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-grid">
+                <div class="video-prev">
+                    <div class="thumbnails-row"><img class='thumbnails' src="images/thumbnails/t2.jpg"></div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture"><img class="profile-picture" src="images/tg1.jpg"></div>
+                        <div class="video-info">   
+                            <p class="video-title">Podcast with Deji</p>
+                            <p class="video-author">True Geordie</p>
+                            <p class="video-views">4.5m views</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-grid">
+                <div class="video-prev">
+                    <div class="thumbnails-row"><img class='thumbnails' src="images/thumbnails/t3.jpg"></div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture"><img class="profile-picture" src="images/tg1.jpg"></div>
+                        <div class="video-info">   
+                            <p class="video-title">Podcast with Chael Sonen</p>
+                            <p class="video-author">True Geordie</p>
+                            <p class="video-views">14m views</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-grid">
+                <div class="video-prev">
+                    <div class="thumbnails-row"><img class='thumbnails' src="images/thumbnails/t4.jpg"></div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture"><img class="profile-picture" src="images/tg1.jpg"></div>
+                        <div class="video-info">   
+                            <p class="video-title">Podcast with Yates</p>
+                            <p class="video-author">True Geordie</p>
+                            <p class="video-views">7m views</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-grid">
+                <div class="video-prev">
+                    <div class="thumbnails-row"><img class='thumbnails' src="images/thumbnails/tg.jpg"></div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture"><img class="profile-picture" src="images/tg1.jpg"></div>
+                        <div class="video-info">   
+                            <p class="video-title">Podcast with Micheal Bisping</p>
+                            <p class="video-author">True Geordie</p>
+                            <p class="video-views">5m views</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </body>
