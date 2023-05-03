@@ -2,9 +2,38 @@
 <html>
     <head>
         <title>youtube.com clone</title>
+        <style>
+            .thumbnails{
+                display: block;
+                width: 300px;
+            }
+            .video-title{
+                width: 300px;
+            }
+            .search-bar{
+                display: block;
+            }
+            .video-prev{
+                display: inline-block;
+                width: 300px;
+                vertical-align: top;
+                margin-right: 15px;
+            }
+        </style>
     </head>
     <body>
-        <img src="images/thumbnails/t.jpg">
-        <input type="text" placeholder="Search">
+        <input class="search-bar" type="text" placeholder="Search">
+        <div class="video-prev">
+            <img class='thumbnails' src="images/thumbnails/t.jpg">
+            <p class="video-title">Podcast with Cris Jerico</p>
+            <p class="video-author">True Geordie</p>
+            <p class="video-views">5m views</p>
+        </div>
+        <div class="video-prev">
+            <img class='thumbnails' src="images/thumbnails/t.jpg">
+            <p class="video-title">Podcast with Cris Jerico</p>
+            <p class="video-author">True Geordie</p>
+            <p class="video-views">5m views</p>
+        </div>
     </body>
 </html>
