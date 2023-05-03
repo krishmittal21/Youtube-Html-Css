@@ -3,6 +3,14 @@
     flex-direction: row;
     height: 55px;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(228, 228, 228);
 }
 .left-section {
     display: flex;
@@ -28,6 +36,8 @@
 .search-bar{
     flex: 1;
     height: 36px;
+    padding-left: 10px;
+    font-size: 16px;
     border-color: gray;
     border-width: 1px;
     border-style: solid;
